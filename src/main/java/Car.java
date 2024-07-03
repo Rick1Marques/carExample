@@ -4,19 +4,25 @@ public class Car {
     String color;
     int yearManufactured;
     int speed;
+    boolean hasStarted;
 
     public Car(){
 
     }
 
     public void start(){
+
         System.out.println("Vrum Vrum");
+        hasStarted = true;
     }
 
 
     public void accelerate(){
-        this.speed += 5;
-
+        if (hasStarted) {
+            this.speed += 5;
+        } else {
+            System.out.println("Please start your car first.");
+        }
     }
 
 }

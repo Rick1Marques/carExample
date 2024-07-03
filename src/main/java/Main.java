@@ -7,6 +7,7 @@ public class Main {
         System.out.println(evasCar.speed);
 
         Car olgasCar = new Car();
+        olgasCar.start();
         olgasCar.accelerate();
         System.out.println(olgasCar.speed);
 
