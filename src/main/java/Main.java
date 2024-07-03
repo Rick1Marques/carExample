@@ -3,7 +3,12 @@ public class Main {
         Car evasCar = new Car();
 
         evasCar.start();
-        evasCar.accelerates();
+        evasCar.accelerate();
         System.out.println(evasCar.speed);
+
+        Car olgasCar = new Car();
+        olgasCar.accelerate();
+        System.out.println(olgasCar.speed);
+
     }
 }

@@ -14,8 +14,9 @@ public class Car {
     }
 
 
-    public void accelerates(){
+    public void accelerate(){
         this.speed += 5;
 
     }
+
 }
